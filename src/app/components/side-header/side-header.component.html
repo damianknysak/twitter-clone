@@ -1,3 +1,49 @@
 <header>
-  <p>side-header works!</p>
+  <ul>
+    <li>
+      <a class="logo" routerLink="/"
+        ><fa-icon [size]="'xl'" [icon]="twitterIcon"
+      /></a>
+    </li>
+    <li>
+      <a class="header-navlink" routerLink="/" routerLinkActive="is-active"
+        ><fa-icon [size]="'lg'" [icon]="homeIcon" /> <span>Home</span></a
+      >
+    </li>
+    <li>
+      <a
+        class="header-navlink"
+        routerLink="/explore"
+        routerLinkActive="is-active"
+        ><fa-icon [size]="'lg'" [icon]="searchIcon" /> <span>Explore</span></a
+      >
+    </li>
+    <li>
+      <a
+        class="header-navlink"
+        routerLink="/profile"
+        routerLinkActive="is-active"
+        ><fa-icon [size]="'lg'" [icon]="userIcon" /> <span>Profile</span></a
+      >
+    </li>
+    <li>
+      <button class="post-button">Post</button>
+    </li>
+  </ul>
+  <div class="user-small-panel">
+    <div class="user-small-details">
+      <img
+        width="40"
+        height="40"
+        src="https://www.shareicon.net/data/512x512/2016/07/05/791224_man_512x512.png"
+        alt="Profile avatar"
+      />
+      <div class="user-small-desc">
+        <span class="username">Damian</span>
+        <span class="nickname">@e_spisz</span>
+      </div>
+    </div>
+
+    <span><fa-icon [icon]="ellipsisIcon" /></span>
+  </div>
 </header>
