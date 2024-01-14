@@ -6,6 +6,9 @@ import { MainSectionComponent } from './components/main-section/main-section.com
 import { SideHeaderComponent } from './components/side-header/side-header.component';
 import { SidePanelComponent } from './components/side-panel/side-panel.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HomeComponent } from './components/main-section-components/home/home.component';
+import { ExploreComponent } from './components/main-section-components/explore/explore.component';
+import { ProfileComponent } from './components/main-section-components/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +16,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MainSectionComponent,
     SideHeaderComponent,
     SidePanelComponent,
+    HomeComponent,
+    ExploreComponent,
+    ProfileComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

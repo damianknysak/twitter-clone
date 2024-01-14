@@ -2,11 +2,15 @@
   <ul>
     <li>
       <a class="logo" routerLink="/"
-        ><fa-icon [size]="'xl'" [icon]="twitterIcon"
+        ><fa-icon [size]="'2xl'" [icon]="twitterIcon"
       /></a>
     </li>
     <li>
-      <a class="header-navlink" routerLink="/" routerLinkActive="is-active"
+      <a
+        class="header-navlink"
+        routerLink="/"
+        routerLinkActive="is-active"
+        [routerLinkActiveOptions]="{ exact: true }"
         ><fa-icon [size]="'lg'" [icon]="homeIcon" /> <span>Home</span></a
       >
     </li>
