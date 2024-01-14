@@ -1,12 +1,11 @@
 header{
     width: 275px;
     height: 100%;
-    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-    color: white;
+    color: var(--main-font-color);
 
 }
 
@@ -23,7 +22,7 @@ ul{
     padding: 12px;
     padding-right: 25px;
     text-decoration: none;
-    color: white;
+    color: var(--main-font-color);
     display: inline-block;
     font-size: 22px;
     border-radius: 9999px;
@@ -31,7 +30,7 @@ ul{
 .logo {
     padding: 12px;
     text-decoration: none;
-    color: white;
+    color: var(--main-font-color);
     display: inline-block;
     border-radius: 9999px;
 }
@@ -40,7 +39,7 @@ ul{
 }
 
 .header-navlink:hover,.logo:hover, .user-small-panel:hover{
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: var(--hover-gray);
     transition: all 0.2s ;
 }
 
@@ -50,8 +49,8 @@ ul{
 
 .post-button{
     border: none;
-    background-color: rgb(29, 155, 240);
-    color: white;
+    background-color: var(--lightblue-bg-color);
+    color: var(--main-font-color);
     font-size: 18px;
     padding: 16px 100px;
     border-radius: 9999px;
@@ -65,7 +64,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    width: 236px;
+    width: 260px;
     cursor: pointer;
     padding: 12px;
     margin-bottom: 10px;

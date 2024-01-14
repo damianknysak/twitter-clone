@@ -1,15 +1,28 @@
-body, html {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 100vh;
-    background: #000;
-    box-sizing: border-box;
+    background: var(--main-bg-color);
     display: flex;
     justify-content: center;
+    margin: 0;
 }
-p{
+
+p {
     display: inline-block;
+    color: var(--main-font-color);
+}
+
+/* Definition of color variables */
+:root {
+    --main-bg-color: black;
+    --main-font-color: white;
+    --lightblue-bg-color: rgb(29, 155, 240);
+    --hover-gray: rgba(128, 128, 128, 0.2);
+    --dark-gray: rgb(22,24,28);
 }
