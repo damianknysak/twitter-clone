@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  activeSection: string = "for-you";
 
+  changeSection(section: string) {
+    this.activeSection = section; 
+  }
 }

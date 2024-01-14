@@ -8,9 +8,6 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 100vh;
     background: var(--main-bg-color);
-    display: flex;
-    justify-content: center;
-    margin: 0;
 }
 
 p {
@@ -26,4 +23,5 @@ p {
     --hover-gray: rgba(128, 128, 128, 0.2);
     --hover-lightblue: rgba(29, 155, 240, 0.2);
     --dark-gray: rgb(22,24,28);
+    --border-gray: rgb(47, 51, 54);
 }

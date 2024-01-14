@@ -2,6 +2,7 @@ main{
     width: 600px;
     height: 100%;
     margin-right: 20px;
-    border-left: 1px rgb(47, 51, 54) solid;
-    border-right: 1px rgb(47, 51, 54) solid;
+    margin-left: 275px;
+    border-left: 1px var(--border-gray) solid;
+    border-right: 1px var(--border-gray) solid;
 }

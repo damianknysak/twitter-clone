@@ -1,0 +1,46 @@
+.nav-home {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px var(--border-gray) solid;
+}
+
+.nav-home-el {
+    color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.nav-home-el:hover{
+    background-color: var(--hover-gray);
+    transition: all 0.2s;
+}
+
+.nav-home-el-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.underline {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    background-color: var(--lightblue-bg-color);
+    height: 4px;
+    width: 100%;
+    border-radius: 999px;
+}
+
+.is-active {
+    font-weight: bold;
+    color: white;
+}
+
+.is-active .underline {
+    display: block;
+}
