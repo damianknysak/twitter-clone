@@ -24,5 +24,6 @@ p {
     --main-font-color: white;
     --lightblue-bg-color: rgb(29, 155, 240);
     --hover-gray: rgba(128, 128, 128, 0.2);
+    --hover-lightblue: rgba(29, 155, 240, 0.2);
     --dark-gray: rgb(22,24,28);
 }

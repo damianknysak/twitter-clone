@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsis, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-side-panel',
@@ -8,4 +8,6 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 })
 export class SidePanelComponent {
   searchIcon = faSearch;
+  ellipsisIcon = faEllipsis;
+
 }
