@@ -1,7 +1,21 @@
-.nav-home {
+.home-root{
+    position: relative;
+}
+
+.nav-home-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.nav-home{
+    position: fixed;
+    width: 598px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px var(--border-gray) solid;
+    background-color: rgb(0 0 0 / 60%);
+    backdrop-filter: blur(10px);
 }
 
 .nav-home-el {
@@ -43,4 +57,52 @@
 
 .is-active .underline {
     display: block;
+}
+
+.add-post{
+    padding: 15px;
+    padding-top: 65px;
+    border-bottom: 1px var(--border-gray) solid;
+}
+
+.add-post-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.add-post-top input {
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.add-post-top img {
+    border-radius: 100%;
+}
+
+.add-post-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 10px;
+    border-top: 1px var(--border-gray) solid;
+}
+
+.add-post-bottom fa-icon {
+    color: var(--lightblue-bg-color);
+
+}
+
+.post-btn {
+    border: none;
+    background-color: var(--lightblue-bg-color);
+    padding: 9px 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
 }

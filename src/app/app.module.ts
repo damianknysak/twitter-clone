@@ -9,6 +9,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HomeComponent } from './components/main-section-components/home/home.component';
 import { ExploreComponent } from './components/main-section-components/explore/explore.component';
 import { ProfileComponent } from './components/main-section-components/profile/profile.component';
+import { PostComponent } from './components/shared/post/post.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProfileComponent } from './components/main-section-components/profile/p
     HomeComponent,
     ExploreComponent,
     ProfileComponent,
+    PostComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

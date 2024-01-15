@@ -1,0 +1,35 @@
+article{
+    padding: 15px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.post-header-left {
+    display: flex;
+    gap: 6px;
+}
+.post-header-left img {
+    border-radius: 100%;
+}
+
+.username {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.username:hover {
+    text-decoration: underline;
+}
+
+.info {
+    color: gray;
+}
+
+fa-icon {
+    color: gray;
+}

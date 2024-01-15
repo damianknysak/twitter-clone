@@ -24,7 +24,7 @@ ul{
     text-decoration: none;
     color: var(--main-font-color);
     display: inline-block;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 9999px;
 }
 .logo {
@@ -51,7 +51,7 @@ ul{
     border: none;
     background-color: var(--lightblue-bg-color);
     color: var(--main-font-color);
-    font-size: 18px;
+    font-size: 17px;
     padding: 16px 100px;
     border-radius: 9999px;
     font-weight: bold;
