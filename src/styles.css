@@ -9,6 +9,7 @@ body {
     height: 100vh;
     background: var(--main-bg-color);
     font-size: 15px;
+    color: white;
 }
 
 p {

@@ -1,5 +1,8 @@
 article{
     padding: 15px;
+    padding-left: 65px;
+    position: relative;
+    border-bottom: 1px var(--border-gray) solid;
 }
 
 .post-header {
@@ -10,14 +13,16 @@ article{
 
 .post-header-left {
     display: flex;
-    gap: 6px;
+    gap: 5px;
 }
 .post-header-left img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
     border-radius: 100%;
 }
 
 .username {
-    color: white;
     font-weight: bold;
     cursor: pointer;
 }
@@ -32,4 +37,40 @@ article{
 
 fa-icon {
     color: gray;
+}
+
+.post-content {
+    margin-top: 5px;
+}
+
+.post-img {
+    margin: 10px 0px;
+    border-radius: 20px;
+    width: 512px;
+    object-fit: contain;
+}
+
+.post-reactions {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40%;
+}
+
+.post-reactions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.post-reactions span {
+    color: gray;
+}
+
+.post-reactions fa-icon {
+    padding: 6px;
+    border-radius: 100%;
+}
+
+.post-reactions button:hover fa-icon {
+    background-color: red;
 }
