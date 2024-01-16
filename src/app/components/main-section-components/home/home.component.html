@@ -33,11 +33,15 @@
       <input type="text" placeholder="What is happening?!" />
     </div>
     <div class="add-post-bottom">
-      <fa-icon [size]="'lg'" [icon]="galleryIcon" />
+      <button class="add-image-btn">
+        <fa-icon [size]="'lg'" [icon]="galleryIcon" />
+      </button>
       <button class="post-btn"><span>Post</span></button>
     </div>
   </section>
   <main class="posts-container">
+    <app-post />
+    <app-post />
     <app-post />
   </main>
 </div>

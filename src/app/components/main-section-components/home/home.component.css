@@ -106,3 +106,17 @@
     font-weight: bold;
     border-radius: 20px;
 }
+
+.add-image-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: -8px;
+    border-radius: 100%;
+}
+
+.add-image-btn:hover {
+ background-color: var(--hover-lightblue);
+ transition: 0.2s all;    
+}
