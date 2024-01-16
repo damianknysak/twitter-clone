@@ -1,0 +1,122 @@
+.home-root{
+    position: relative;
+}
+
+.nav-home-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.nav-home{
+    position: fixed;
+    width: 598px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px var(--border-gray) solid;
+    background-color: rgb(0 0 0 / 60%);
+    backdrop-filter: blur(10px);
+}
+
+.nav-home-el {
+    color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.nav-home-el:hover{
+    background-color: var(--hover-gray);
+    transition: all 0.2s;
+}
+
+.nav-home-el-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.underline {
+    position: absolute;
+    display: none;
+    bottom: 0;
+    background-color: var(--lightblue-bg-color);
+    height: 4px;
+    width: 100%;
+    border-radius: 999px;
+}
+
+.is-active {
+    font-weight: bold;
+    color: white;
+}
+
+.is-active .underline {
+    display: block;
+}
+
+.add-post{
+    padding: 15px;
+    padding-top: 65px;
+    border-bottom: 1px var(--border-gray) solid;
+}
+
+.add-post-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.add-post-top input {
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.add-post-top img {
+    border-radius: 100%;
+}
+
+.add-post-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    padding-top: 10px;
+    border-top: 1px var(--border-gray) solid;
+}
+
+.add-post-bottom fa-icon {
+    color: var(--lightblue-bg-color);
+
+}
+
+.post-btn {
+    border: none;
+    background-color: var(--lightblue-bg-color);
+    padding: 9px 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.add-image-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: -8px;
+    border-radius: 100%;
+}
+
+.add-image-btn:hover {
+ background-color: var(--hover-lightblue);
+ transition: 0.2s all;    
+}
