@@ -1,1 +1,22 @@
-<p>home-navigation works!</p>
+<nav class="nav-home-wrapper">
+  <div class="nav-home">
+    <div (click)="changeSection('for-you')" class="nav-home-el">
+      <div
+        [ngClass]="{ 'is-active': activeSection === 'for-you' }"
+        class="nav-home-el-text"
+      >
+        <span>For You</span>
+        <div class="underline"></div>
+      </div>
+    </div>
+    <div (click)="changeSection('following')" class="nav-home-el">
+      <div
+        [ngClass]="{ 'is-active': activeSection === 'following' }"
+        class="nav-home-el-text"
+      >
+        <span>Following</span>
+        <div class="underline"></div>
+      </div>
+    </div>
+  </div>
+</nav>
