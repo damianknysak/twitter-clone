@@ -1,0 +1,72 @@
+.side-panel-section {
+    background-color: var(--dark-gray);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.side-panel-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px
+}
+
+.to-follow-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.show-more-btn:hover, .to-follow-user:hover {
+    background-color: var(--hover-gray);
+    transition: all 0.2s;
+}
+
+
+.user-small-details {
+    display: flex;
+    gap: 10px;
+}
+
+.to-follow-user img {
+    border-radius: 9999px;
+}
+
+.user-small-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-small-desc .username {
+    font-weight: bold;
+}
+
+.user-small-desc .username:hover {
+    text-decoration: underline;
+}
+.user-small-desc .nickname {
+    color: gray;
+}
+
+
+.follow-btn {
+    background-color: white;
+    border: none;
+    padding: 0 16px;
+    border-radius: 999px;
+    height: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.show-more-btn {
+    cursor: pointer;
+    padding: 20px 15px;
+    color: var(--lightblue-bg-color);
+}

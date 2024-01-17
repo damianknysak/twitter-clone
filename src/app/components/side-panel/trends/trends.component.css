@@ -1,0 +1,71 @@
+.side-panel-section {
+    background-color: var(--dark-gray);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.side-panel-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px
+}
+
+.show-more-btn {
+    cursor: pointer;
+    padding: 20px 15px;
+    color: var(--lightblue-bg-color);
+}
+
+.trend-element {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 10px 15px;
+}
+
+.trend-element:hover{
+    background-color: var(--hover-gray);
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.trend-info, .trend-counter{
+    color: gray;
+    font-size: 13px;
+}
+
+.trend-info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trend-info button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 999px;
+}
+.trend-info fa-icon {
+    color: gray;
+}
+.trend-info button:hover fa-icon {
+    color: var(--lightblue-bg-color);
+    transition: all 0.2s;
+}
+.trend-info button:hover {
+    background-color: var(--hover-lightblue);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.trend-title{
+    font-weight: bold;
+}
+
+

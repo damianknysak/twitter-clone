@@ -13,6 +13,9 @@ import { PostComponent } from './components/shared/posts/post/post.component';
 import { PostsComponent } from './components/shared/posts/posts.component';
 import { HomeNavigationComponent } from './components/main-section/home/home-navigation/home-navigation.component';
 import { AddPostComponent } from './components/main-section/home/add-post/add-post.component';
+import { WhoToFollowComponent } from './components/side-panel/who-to-follow/who-to-follow.component';
+import { TrendsComponent } from './components/side-panel/trends/trends.component';
+import { SearchPanelComponent } from './components/side-panel/search-panel/search-panel.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { AddPostComponent } from './components/main-section/home/add-post/add-po
     PostsComponent,
     HomeNavigationComponent,
     AddPostComponent,
+    WhoToFollowComponent,
+    TrendsComponent,
+    SearchPanelComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
