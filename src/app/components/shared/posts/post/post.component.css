@@ -32,11 +32,11 @@ article{
 }
 
 .info {
-    color: gray;
+    color: var(--gray-font-color);
 }
 
 fa-icon {
-    color: gray;
+    color: var(--gray-font-color);
 }
 
 .post-content {
@@ -64,7 +64,7 @@ fa-icon {
 
 .post-reactions span {
     margin-left: -5px;
-    color: gray;
+    color: var(--gray-font-color);
 }
 
 .post-reactions fa-icon {

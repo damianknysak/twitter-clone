@@ -27,7 +27,7 @@
 }
 
 .trend-info, .trend-counter{
-    color: gray;
+    color: var(--gray-font-color);
     font-size: 13px;
 }
 
@@ -47,7 +47,7 @@
     border-radius: 999px;
 }
 .trend-info fa-icon {
-    color: gray;
+    color: var(--gray-font-color);
 }
 .trend-info button:hover fa-icon {
     color: var(--lightblue-bg-color);

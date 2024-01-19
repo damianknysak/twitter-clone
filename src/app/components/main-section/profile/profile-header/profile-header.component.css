@@ -1,0 +1,49 @@
+.profile-header-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+.profile-header {
+    position: fixed;
+    z-index: 50;
+    width: 598px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px var(--border-gray) solid;
+    background-color: rgb(0 0 0 / 60%);
+    backdrop-filter: blur(10px);
+}
+
+.user-info {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.posts {
+    font-size: 13px;
+    color: var(--gray-font-color);
+}
+
+.go-back-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.go-back-btn:hover{
+    background-color: var(--hover-gray);
+    transition: all 0.2s;
+}

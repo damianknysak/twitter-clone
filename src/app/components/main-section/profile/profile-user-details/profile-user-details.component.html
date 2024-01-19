@@ -1,0 +1,33 @@
+<section class="user-details-root">
+  <div class="profile-bg-img"></div>
+  <div class="user-details">
+    <div class="profile-img-wrapper">
+      <img
+        class="profile-img"
+        width="133"
+        height="133"
+        src="https://www.shareicon.net/data/512x512/2016/07/05/791224_man_512x512.png"
+        alt="Profile avatar"
+      />
+    </div>
+    <div class="profile-actions">
+      <button class="edit-profile-btn">Edit Profile</button>
+    </div>
+    <div class="profile-user-info">
+      <span class="name">Damian</span>
+      <span class="nickname">@e_spisz</span>
+      <span class="description">Woof</span>
+      <div class="date-joined">
+        <fa-icon [icon]="calendarIcon" /><span>Joined March 2022</span>
+      </div>
+      <div class="follow-info">
+        <div class="followings-amount underline-hover">
+          <b>68</b>{{ " " }}<span>Following</span>
+        </div>
+        <div class="followers-amount underline-hover">
+          <b>4</b>{{ " " }}<span>Followers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -17,7 +17,7 @@
 }
 
 .nav-home-el {
-    color: gray;
+    color: var(--gray-font-color);
     flex: 1;
     display: flex;
     justify-content: center;

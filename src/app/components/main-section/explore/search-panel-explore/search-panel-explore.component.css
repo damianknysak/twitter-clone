@@ -10,7 +10,7 @@
 }
 
 .search-panel fa-icon {
-    color: gray;
+    color: var(--gray-font-color);
 } 
 
 .search-panel input {

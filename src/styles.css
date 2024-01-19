@@ -21,6 +21,7 @@ p {
 :root {
     --main-bg-color: black;
     --main-font-color: white;
+    --gray-font-color: rgb(113, 118, 123);
     --lightblue-bg-color: rgb(29, 155, 240);
     --hover-gray: rgba(128, 128, 128, 0.2);
     --hover-lightblue: rgba(29, 155, 240, 0.2);
