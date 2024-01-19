@@ -18,6 +18,8 @@ import { TrendsComponent } from './components/side-panel/trends/trends.component
 import { SearchPanelComponent } from './components/side-panel/search-panel/search-panel.component';
 import { TrendsForYouComponent } from './components/main-section/explore/trends-for-you/trends-for-you.component';
 import { SearchPanelExploreComponent } from './components/main-section/explore/search-panel-explore/search-panel-explore.component';
+import { ProfileHeaderComponent } from './components/main-section/profile/profile-header/profile-header.component';
+import { ProfileUserDetailsComponent } from './components/main-section/profile/profile-user-details/profile-user-details.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { SearchPanelExploreComponent } from './components/main-section/explore/s
     SearchPanelComponent,
     TrendsForYouComponent,
     SearchPanelExploreComponent,
+    ProfileHeaderComponent,
+    ProfileUserDetailsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

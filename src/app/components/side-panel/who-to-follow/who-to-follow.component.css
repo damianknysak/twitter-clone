@@ -51,7 +51,7 @@
     text-decoration: underline;
 }
 .user-small-desc .nickname {
-    color: gray;
+    color: var(--gray-font-color);
 }
 
 
