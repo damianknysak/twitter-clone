@@ -16,6 +16,8 @@ import { AddPostComponent } from './components/main-section/home/add-post/add-po
 import { WhoToFollowComponent } from './components/side-panel/who-to-follow/who-to-follow.component';
 import { TrendsComponent } from './components/side-panel/trends/trends.component';
 import { SearchPanelComponent } from './components/side-panel/search-panel/search-panel.component';
+import { TrendsForYouComponent } from './components/main-section/explore/trends-for-you/trends-for-you.component';
+import { SearchPanelExploreComponent } from './components/main-section/explore/search-panel-explore/search-panel-explore.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +35,8 @@ import { SearchPanelComponent } from './components/side-panel/search-panel/searc
     WhoToFollowComponent,
     TrendsComponent,
     SearchPanelComponent,
+    TrendsForYouComponent,
+    SearchPanelExploreComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
