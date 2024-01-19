@@ -1,0 +1,32 @@
+.search-panel {
+    border-radius: 9999px;
+    margin: auto;
+    margin-top: 5px;
+    gap: 10px;
+    padding: 15px;
+    width: 90%;
+    background-color: var(--dark-gray);
+    border: 1px solid var(--dark-gray);
+}
+
+.search-panel fa-icon {
+    color: gray;
+} 
+
+.search-panel input {
+    margin-left: 10px;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--main-font-color);;
+}
+
+.search-panel:focus-within{
+    border: 1px solid var(--lightblue-bg-color);
+}
+
+.search-panel:focus-within fa-icon {
+    color: var(--lightblue-bg-color);
+}
+
