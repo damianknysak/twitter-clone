@@ -49,6 +49,7 @@ ul{
 
 .post-button{
     border: none;
+    display: inline-block;
     background-color: var(--lightblue-bg-color);
     color: var(--main-font-color);
     font-size: 17px;
@@ -56,6 +57,7 @@ ul{
     border-radius: 9999px;
     font-weight: bold;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .user-small-panel {
