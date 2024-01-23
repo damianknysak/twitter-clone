@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeNavigationComponent {
   activeSection = 'for-you';
-  changeSection(section: string) {
+  changeSection(section: 'for-you' | 'following') {
     this.activeSection = section;
   }
 }

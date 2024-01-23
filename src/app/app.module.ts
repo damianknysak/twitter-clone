@@ -20,6 +20,7 @@ import { TrendsForYouComponent } from './components/main-section/explore/trends-
 import { SearchPanelExploreComponent } from './components/main-section/explore/search-panel-explore/search-panel-explore.component';
 import { ProfileHeaderComponent } from './components/main-section/profile/profile-header/profile-header.component';
 import { ProfileUserDetailsComponent } from './components/main-section/profile/profile-user-details/profile-user-details.component';
+import { ProfileUserContentComponent } from './components/main-section/profile/profile-user-content/profile-user-content.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { ProfileUserDetailsComponent } from './components/main-section/profile/p
     SearchPanelExploreComponent,
     ProfileHeaderComponent,
     ProfileUserDetailsComponent,
+    ProfileUserContentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

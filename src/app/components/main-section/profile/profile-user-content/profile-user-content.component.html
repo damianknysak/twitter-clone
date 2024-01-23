@@ -1,0 +1,31 @@
+<nav class="nav-home-wrapper">
+  <div class="nav-home">
+    <div (click)="changeSection('posts')" class="nav-home-el">
+      <div
+        [ngClass]="{ 'is-active': activeSection === 'posts' }"
+        class="nav-home-el-text"
+      >
+        <span>Posts</span>
+        <div class="underline"></div>
+      </div>
+    </div>
+    <div (click)="changeSection('replies')" class="nav-home-el">
+      <div
+        [ngClass]="{ 'is-active': activeSection === 'replies' }"
+        class="nav-home-el-text"
+      >
+        <span>Replies</span>
+        <div class="underline"></div>
+      </div>
+    </div>
+    <div (click)="changeSection('likes')" class="nav-home-el">
+      <div
+        [ngClass]="{ 'is-active': activeSection === 'likes' }"
+        class="nav-home-el-text"
+      >
+        <span>Likes</span>
+        <div class="underline"></div>
+      </div>
+    </div>
+  </div>
+</nav>
