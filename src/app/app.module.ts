@@ -21,6 +21,7 @@ import { SearchPanelExploreComponent } from './components/main-section/explore/s
 import { ProfileHeaderComponent } from './components/main-section/profile/profile-header/profile-header.component';
 import { ProfileUserDetailsComponent } from './components/main-section/profile/profile-user-details/profile-user-details.component';
 import { ProfileUserContentComponent } from './components/main-section/profile/profile-user-content/profile-user-content.component';
+import { ModalComponent } from './components/shared/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ProfileUserContentComponent } from './components/main-section/profile/p
     ProfileHeaderComponent,
     ProfileUserDetailsComponent,
     ProfileUserContentComponent,
+    ModalComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],

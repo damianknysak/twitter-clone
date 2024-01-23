@@ -1,0 +1,9 @@
+<div class="modal {{ size }}">
+  <p>Hello</p>
+  <p>{{ title }}</p>
+  <button (click)="close()">Close</button>
+  <button (click)="submit()">Submit</button>
+  <ng-content></ng-content>
+</div>
+
+<div class="model-backdrop" (click)="close()"></div>

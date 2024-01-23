@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, TemplateRef } from '@angular/core';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import {
   faEllipsis,
@@ -6,6 +6,7 @@ import {
   faSearch,
   faUser,
 } from '@fortawesome/free-solid-svg-icons';
+import { ModalService } from 'src/app/services/shared/modal.service';
 
 @Component({
   selector: 'app-side-header',
@@ -18,4 +19,14 @@ export class SideHeaderComponent {
   searchIcon = faSearch;
   userIcon = faUser;
   ellipsisIcon = faEllipsis;
+
+  constructor(private modalService: ModalService) {}
+
+  openModal(modalTemplate: TemplateRef<any>): void {
+    this.modalService
+      .open(modalTemplate, { size: 'lg', title: 'Foo' })
+      .subscribe((action) => {
+        console.log('modalAction', action);
+      });
+  }
 }
